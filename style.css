@@ -1,0 +1,73 @@
+body{
+  text-align:center;
+  background:linear-gradient(#1DE9B6, #FF6D00);
+  background-repeat:no-repeat;
+}
+h1{
+  text-shadow:1px 1px #4A148C;
+  font-size:20px;
+}
+#bio, #bio2{
+  padding:20px;
+  font-size:18;
+  text-align:center;
+}
+img{
+  border-radius:50%;
+  width:100px;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: white;
+    text-shadow: inline;
+}
+#myname{
+font-family: 'New Tegomin', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.apps:hover{
+    color: purple;
+          text-shadow: none !important;
+     text-decoration: underline !important;
+}
+a{
+    text-decoration: none;
+}
+.contact:hover{
+    color: purple;
+     text-shadow: none !important;
+     text-decoration: underline !important;
+}
+img{
+    transition: transform.2s;
+    boarder:10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
+
+.links {
+    float: right;
+    color: white;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    background-color: yellow;
+    font-size: 25px;
+    text-decoration: underline;
+}
